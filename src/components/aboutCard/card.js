@@ -9,7 +9,7 @@ function Card(){
                 <div class="card mb-3" >
                     <div class="row g-0">
                         <div class="col-md-4">
-                        <img class=" img-fluid pe-3" src="./Assets/images/IMG_1070.png" alt="..."/>
+                        <img class=" img-fluid pe-3" src="./assets/images/IMG_1070.png" alt="..."/>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">

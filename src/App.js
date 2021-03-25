@@ -1,5 +1,7 @@
-// import logo from './logo.svg';
+import React from 'react'
+import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import AboutPage from './pages/About'
 import ContactPages from './pages/Contact'
 import PortfolioPages from './pages/Portfolio'
@@ -8,14 +10,19 @@ import Footer from './components/footer/footer'
 
 function App() {
   return (
-    <div>
-        <NavBar/>
-          <AboutPage/>
-          <ContactPages/>
-          <PortfolioPages/>
-        <Footer/>
+      <div>
+        <Router>
+          <NavBar/>
 
-    </div>
+            <Route exact path="/" component={AboutPage}/> 
+            <Route exact path="/about" component={AboutPage}/>
+            <Route exact path="/Portfolio" component={PortfolioPages}/> 
+            <Route exact path="/Contact" component={ContactPages}/>  
+
+          <Footer/>
+        </Router>
+
+      </div>
   );
 }
 
