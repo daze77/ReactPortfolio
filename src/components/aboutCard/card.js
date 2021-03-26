@@ -1,4 +1,5 @@
 import React from 'react' 
+import ProfilePic from '../../../src/assets/images/IMG_1070.png'
 
 
 function Card(){
@@ -9,7 +10,7 @@ function Card(){
                 <div class="card mb-3" >
                     <div class="row g-0">
                         <div class="col-md-4">
-                        <img class=" img-fluid pe-3" src="./assets/images/IMG_1070.png" alt="..."/>
+                        <img class=" img-fluid pe-3" src={ProfilePic} alt="..."/>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">

@@ -1,4 +1,6 @@
 import React from 'react' 
+import Resume from '../../assets/documents/BillHronisResume-Updated.pdf'
+
 
 
 function Contactcard(){
@@ -14,7 +16,7 @@ function Contactcard(){
                             <div class="col-md-6 p-4">
                                 <h2 class="d-inline display-4">Bill Hronis</h2>
                                 <br/>
-                                <a href="./assets/documents/BillHronisResume-Updated.pdf" target="_blank" >Resume</a>
+                                <a href={Resume} target="_blank" rel="noreferrer" >Resume</a>
                             </div>
                             <div class="col-md-6 py-4">
                                 <div class="phone">
