@@ -53,7 +53,7 @@ function Portfoliocard(){
 
                         <div class="col">
                           <div class="card">
-                            <img src="/assets/images/weatherapp.png" class="card-img-top" alt="..."/>
+                            <img src="https://api.github.com/repos/daze77/bthportfolio/deployments" class="card-img-top" alt="..."/>
                             <div class="card-body">
                               <h5 class="card-title">Weather App</h5>
                               <p class="card-text">This is a weather app allowing you to search for weather in any city from the search bar located at the top right.  Each search is saved and you can click on saved searches to retrieve and view the weather of that city at some future point in time.</p>
