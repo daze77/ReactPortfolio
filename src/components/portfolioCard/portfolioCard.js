@@ -9,7 +9,7 @@ function Portfoliocard(){
             <div class="pt-5 col-12 col-md-9">
                 <div class="card1 container">
                                            
-                    <h1 class="lh-lg">Portfolio</h1>
+                    <h1 class="lh-lg header">Portfolio</h1>
                     <br/>
 
                     <div class="row row-cols-1 row-cols-md-2 g-4">

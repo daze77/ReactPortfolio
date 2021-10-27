@@ -15,7 +15,7 @@ function Card(){
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h1 class="card-title lh-lg">About Me</h1>
+                                    <h1 class="card-title lh-lg header">About Me</h1>
                                     <p class="card-text">Full Stack Web Developer with a background in Project Management and a passion for learning. Effective at combining creativity and problem solving to develop user-friendly applications.  Known among staff and collogues for strong leadership, attention to detail and a positive attitude no matter the complexity of the problem or task.</p>
                                 </div>
                             </div>

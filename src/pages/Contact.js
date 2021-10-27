@@ -5,7 +5,7 @@ function ContactPages(){
 
     return(
         <>
-        <ContactCard/>
+            <ContactCard/>
 
         </>
     )

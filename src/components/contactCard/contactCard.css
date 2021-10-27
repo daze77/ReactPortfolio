@@ -1,0 +1,16 @@
+#contact.div{
+    line-height: 0.7;
+}
+
+i.fa-envelope-square, i.fa-phone-alt{
+    padding-right: 5px
+}
+
+#contactCard h1{
+    display: inline;
+}
+
+.header{
+    border-bottom: 1px solid #88b0b7;
+
+}

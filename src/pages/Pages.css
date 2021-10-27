@@ -3,3 +3,44 @@
 body{
     background-image: url(../assets/images/background/random_grey_variations_@2X.png);
 }
+
+
+h1, h5{
+    color: #88B0B7;
+  }
+  
+  
+  .card1{
+    height:min-content;
+    background-color: white;
+    min-height: 550px;
+  }
+  
+  .contactCard{
+    height:min-content;
+    background-color: white;
+    min-height: 280px;
+  }
+  
+  .footerline{
+    border-top: 5px solid #88B0B7;
+  }
+  
+  .phone, .email {
+    padding: 2px, 0px;
+  }
+  
+  
+  
+  a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+  
+  }
+  
+  
+  #phone, #email{
+    color: black
+  }
+  #github {
+    color: black
+  }

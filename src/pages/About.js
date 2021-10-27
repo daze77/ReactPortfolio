@@ -6,7 +6,7 @@ function AboutPage(){
 
     return(
         <>
-        <Card/>
+            <Card/>
         </>
     )
 
