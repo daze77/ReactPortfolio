@@ -1,9 +1,11 @@
-#contact.div{
-    line-height: 0.7;
-}
+
+
+.phone, .email {
+    padding: 5px 0px;
+  }
 
 i.fa-envelope-square, i.fa-phone-alt{
-    padding-right: 5px
+    padding-right: 10px
 }
 
 #contactCard h1{
@@ -14,3 +16,13 @@ i.fa-envelope-square, i.fa-phone-alt{
     border-bottom: 1px solid #88b0b7;
 
 }
+
+
+.el{
+    display:inline-block;
+  }
+
+  /* .logoimg{
+    position: absolute;
+    bottom:0;
+} */
