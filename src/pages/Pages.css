@@ -16,11 +16,7 @@ h1, h5{
     min-height: 550px;
   }
   
-  .contactCard{
-    height:min-content;
-    background-color: white;
-    min-height: 280px;
-  }
+
   
   .footerline{
     border-top: 5px solid #88B0B7;
@@ -36,9 +32,3 @@ h1, h5{
   }
   
   
-  #phone, #email{
-    color: black
-  }
-  #github {
-    color: black
-  }

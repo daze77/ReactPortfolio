@@ -104,7 +104,7 @@ function Logo(onClick){
   
 return (
     <>
-        <div className="Logocontainer" {...onClick}>
+        <div className="Logocontainer">
             <div className="LogoSymbolContainer">
                 <div className="logoimg el" data-x="300">
                     <svg width="155px" height="155px"

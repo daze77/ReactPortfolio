@@ -9,43 +9,36 @@ function Contactcard(){
     return(
 
     <section id="contactCard" class="container-fluid">
-        <div class="row  pt-5">
-            <div class="col-md-9">
-                <div class="contactCard container">
+
+        
+        <div class="row pt-5">
+                <div class="container col-lg-9 contactCard ">
+                    <div class=" container">
                     <div class="header">
                         <h1 class="lh-lg">Contact</h1>
-                        <div class="float-end p-3" >
+                        <div id="social" class=" px-3 pt-3" >
                             <a  id="github" href="https://github.com/daze77" target="_blank" rel="noreferrer" ><i class="fab fa-github fa-2x"></i></a>
                             <a href="https://www.linkedin.com/in/bill-hronis-8b9357155" target="_blank" rel="noreferrer"><i class="ps-2 fab fa-linkedin-in fa-2x "></i></a>
                         </div>
                     </div>
-                    <div class="row ps-2">
-                        <div class="col-lg-6 p-4">
+                    <div class="row align-items-center row-cols-1 row-cols-md-2 ">
+                        <div id="logo" class="col ">
                             <Logo />
-
-
-
-
-
-
-                   
-                            
-
-                        </div>
-                        <div class="col-lg-6 p-4" id="contact">
-                        <h2 class="display-4 m-0">Bill Hronis</h2>
-                            <a href={Resume} target="_blank" rel="noreferrer">Resume</a>
+                       </div>
+                        <div class="col" id="contact">
+                            <h2 class="display-6">Bill Hronis</h2>
+                            <div id="resume" ><a  href={Resume} target="_blank" rel="noreferrer">Resume</a> </div>
                             <div class="phone">
-                                <a id="phone" href="tel:+14164569794"><i class="fas fa-phone-alt "></i>416.456.9794</a>
+                                <a  href="tel:+14164569794"><i class="fas fa-phone-alt "></i>416.456.9794</a>
                             </div>
                             <div class="email">
-                                <a id="email" href="mailto:bill.hronis@outlook.com"><i class="fas fa-envelope-square"></i>bill.hronis@outlook.com</a>
+                                <a  href="mailto:bill.hronis@outlook.com"><i class="fas fa-envelope-square"></i>bill.hronis@outlook.com</a>
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
     )
     
