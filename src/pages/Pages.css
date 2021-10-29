@@ -1,14 +1,10 @@
-
-
 body{
     background-image: url(../assets/images/background/random_grey_variations_@2X.png);
 }
 
-
 h1, h5{
     color: #88B0B7;
   }
-  
   
   .card1{
     height:min-content;
@@ -16,19 +12,10 @@ h1, h5{
     min-height: 550px;
   }
   
-
-  
   .footerline{
     border-top: 5px solid #88B0B7;
   }
   
-  
-  
-  
-  
   a:link, a:visited, a:hover, a:active{
     text-decoration: none;
-  
   }
-  
-  

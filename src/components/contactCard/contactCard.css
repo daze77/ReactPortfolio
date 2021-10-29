@@ -10,13 +10,15 @@
     color: black
   }
   
-  .phone a, .email a{
+.phone a, .email a{
     color: black
-
   }
 
+.contactTop{
+    position: relative;
+}
 
-  #github {
+#github {
     color: black
   }
 
@@ -24,15 +26,13 @@ i.fa-envelope-square, i.fa-phone-alt{
     padding-right: 10px
 }
 
-#contactCard h1{
+#contactCard > .header{
     display: inline;
-    color: #858689;
 }
 
 .header{
+    color: #858689;
     border-bottom: 1px solid #27ace1;
-    position: relative;
-
 }
 
 #contact h2{
@@ -42,7 +42,6 @@ i.fa-envelope-square, i.fa-phone-alt{
 #resume{
     padding-bottom: 15px;
     font-size: 15px;
-    
 }
 
 #resume a{
@@ -57,24 +56,22 @@ i.fa-envelope-square, i.fa-phone-alt{
     display: inline;
   }
 
-  #contactCard{
+#contactCard{
     max-width: 1000px;
     min-width: 385px;
   }
 
-  #contact{
+#contact{
       padding: 1rem
   }
 
-  @media only screen and (max-width: 766px) {
-    
+@media only screen and (max-width: 766px) {    
     #contact, #logo{
     padding: 0rem 8rem 1rem 8rem;
   }
 }
 
 @media only screen and (max-width: 766px) {
-    
     #logo{
     padding: 0rem 5rem 1rem 5rem;
   }

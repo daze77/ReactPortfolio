@@ -1,13 +1,13 @@
 import React from 'react' 
 import ProfilePic from '../../../src/assets/images/IMG_1070.png'
-import './card.css'
+import './AboutCard.css'
 
 
 function Card(){
     return(
         <section class="container-fluid">     
-            <main class="row pb-5">
-                <div class="col-12 col-md-8 py-5">
+            <main class="row row-col-1 row-col-md-12 pb-5">
+                <div class="col py-5">
                     <div class="card mb-3" >
                         <div class="row g-0">
                             <div class="col-md-4">
