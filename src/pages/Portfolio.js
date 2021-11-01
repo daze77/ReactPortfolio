@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 
 import API from '../utils/GraphQL'
 import Card from '../components/Card/Card'
+import './Pages.css'
 
 function Portfoliocard(){
   
@@ -12,27 +13,24 @@ function Portfoliocard(){
     setresults3(results2.data.data.viewer.pinnedItems.edges)
   }
 
+
   useEffect(()=> {
     getItems()
   },[])
   
-  console.log('resutls 3 here', results3)
 
     return(
 
-      <section class="container">
-          <div class="row row-cols-1, row-cols-md-2 ">
+      <section className="portfolio py-4">
+          <div className="row row-cols-1 row-cols-md-2 g-3">
             {results3.map(a =>(
-
-            <Card
-              title = {a.node.name}
-              description = {a.node.description}
-              link = {a.node.link}
-              image = {a.node.openGraphImageUrl}
-
-
+                <Card
+                    title = {a.node.name}
+                    description = {a.node.description}
+                    link = {a.node.link}
+                    image = {a.node.openGraphImageUrl}
+                    key = {a.node.id}
                 />
-
             ))}
       
           </div>

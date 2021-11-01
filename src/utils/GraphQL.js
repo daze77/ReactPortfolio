@@ -7,7 +7,7 @@ function getStuff(){
 // Endpoint URL
 const githubUrl = 'https://api.github.com/graphql'
 // Your personal access token
-const token = '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'
+const token = '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'
 // The Authorization in the header of the request
 const oauth = {Authorization: 'bearer ' + token}
 // The GraphQL query, a string
@@ -19,6 +19,7 @@ const query = `{
                                 node {
                                     __typename
                                     ... on Repository {
+                                        id
                                         name
                                         description
                                         projectsUrl

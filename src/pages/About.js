@@ -1,12 +1,12 @@
 import React from 'react'
-import Card from '../components/aboutCard/card'
+import AboutCard from '../components/AboutCard/AboutCard'
 
 
 function AboutPage(){
 
     return(
         <>
-            <Card/>
+            <AboutCard/>
         </>
     )
 

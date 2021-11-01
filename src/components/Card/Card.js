@@ -1,16 +1,17 @@
 import React from 'react'
+import './Card.css'
 
-function cardTemplate(props){
+function card(props){
 
 return(
     <>
-      <div class="col">
-            <div class="card" style={{width: "100%"}}>
-                <img src={props.image} class="card-img-top" alt={props.image}/>
-                <div class ="card-body">
-                    <h5 class ="card-title">{props.title}</h5>
-                    <p class ="card-text">{props.description}</p>
-                    <a href={props.link} class ="btn btn-primary">{props.link}</a>
+      <div className="col">
+            <div className="card h-100" style={{width: "100%"}} key={props.id}>
+                <img src={props.image} className="card-img-top" alt={props.image}/>
+                <div className ="card-body">
+                    <h5 className ="card-title">{props.title}</h5>
+                    <p className ="card-text">{props.description}</p>
+                    <a href={props.link} className ="btn btn-primary">{props.link}</a>
                 </div>
             </div>
         </div>
@@ -18,4 +19,4 @@ return(
 )
 }
 
-export default cardTemplate
+export default card

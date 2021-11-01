@@ -6,13 +6,11 @@ import AboutPage from './pages/About'
 import ContactPages from './pages/Contact'
 import PortfolioPages from './pages/Portfolio'
 import NavBar from './components/navBar/navBar'
-import Footer from './components/footer/footer'
-import MyFunction from './components/portfolioCard/portfolioCardSingle';
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
       <div >
-        {/* <MyFunction/> */}
         <Router>
           <NavBar/>
           <div className="container">

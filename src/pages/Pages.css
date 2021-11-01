@@ -12,10 +12,14 @@ h1, h5{
     min-height: 550px;
   }
   
-  .footerline{
-    border-top: 5px solid #88B0B7;
-  }
+
   
   a:link, a:visited, a:hover, a:active{
     text-decoration: none;
   }
+
+  .portfolio{
+    margin-bottom: 50px;
+    object-fit: cover;
+  }
+
