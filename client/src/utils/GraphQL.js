@@ -1,4 +1,5 @@
 import axios from 'axios'
+require( 'dotenv').config()
 
 
 function getStuff(){
@@ -7,7 +8,7 @@ function getStuff(){
 // Endpoint URL
 const githubUrl = 'https://api.github.com/graphql'
 // Your personal access token
-const token = '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'
+const token = process.env.TOKEN
 // The Authorization in the header of the request
 const oauth = {Authorization: 'bearer ' + token}
 // The GraphQL query, a string

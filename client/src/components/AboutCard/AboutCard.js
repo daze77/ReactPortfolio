@@ -1,5 +1,5 @@
 import React from 'react' 
-import ProfilePic from '../../../src/assets/images/IMG_1070.png'
+import ProfilePic from '../../assets/images/IMG_1070.png'
 import './AboutCard.css'
 
 

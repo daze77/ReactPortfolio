@@ -2,7 +2,7 @@ import React from 'react'
 import Resume from '../../assets/documents/BillHronisResume-Updated.pdf'
 import './contactCard.css'
 
-import Logo from '../../components/Logo/Logo'
+import Logo from '../Logo/Logo'
 
 
 function Contactcard(){
