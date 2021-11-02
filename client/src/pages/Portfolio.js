@@ -9,13 +9,6 @@ import fetchJSON from '../utils/FetchJSON'
 
 function Portfoliocard(){
   
-  require( 'dotenv' ).config()
-
-  
-  const tt = process.env.TOKEN
-
-  console.log('tt',tt)
-
   const query = `{
     viewer {
         login
@@ -39,23 +32,24 @@ function Portfoliocard(){
         }
     }
 }`
-  // const[results3, setresults3] = useState([])
-  
-  async function getItems(){
-    console.log('okay get items from Portfolio screen here')
-  
+  const[projects, setProjects] = useState([])
+  async function getToken(){
+    const result = await fetchJSON('/api/portfolio')
+    getItems(result)
 
-    const results = await fetchGRAPHQL(tt)
-    console.log('RESULTS IN PORTFOLIO', results)
   }
 
-  // async function getItems(TOKEN){
-  //   const results2 = await API()
-  //   setresults3(results2.data.data.viewer.pinnedItems.edges)
-  // }
+
+  async function getItems(TOKEN){
+    const results = await fetchGRAPHQL(TOKEN, query)
+
+    setProjects(results.data.viewer.pinnedItems.edges)
+  }
+
+
 
   useEffect(()=> {
-    getItems()
+    getToken()
   },[])
   
 
@@ -63,7 +57,7 @@ function Portfoliocard(){
 
       <section className="portfolio py-4">
           <div className="row row-cols-1 row-cols-md-2 g-3">
-            {/* {results3.map(a =>(
+            {projects.map(a =>(
                 <Card
                     title = {a.node.name}
                     description = {a.node.description}
@@ -71,7 +65,7 @@ function Portfoliocard(){
                     image = {a.node.openGraphImageUrl}
                     key = {a.node.id}
                 />
-            ))} */}
+            ))}
       
           </div>
       </section>
