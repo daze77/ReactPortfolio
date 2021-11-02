@@ -1,13 +1,6 @@
 require( 'dotenv' ).config()
 
-
-
 async function fetchGraphQL(token, query, variables){
-
-    console.log('did we find it', token.token)
-    console.log('did we find it', query)
-
-
   // Fetch data from GitHub's GraphQL API:
   const response = await fetch('https://api.github.com/graphql', {
     method: 'POST',
@@ -25,6 +18,4 @@ async function fetchGraphQL(token, query, variables){
   return await response.json();
 }
  
-
-
 export default fetchGraphQL
