@@ -5,11 +5,16 @@ import Card from '../components/Card/Card'
 import './Pages.css'
 import fetchJSON from '../utils/FetchJSON'
 
-require( 'dotenv' ).config()
 
 
 function Portfoliocard(){
+  
+  require( 'dotenv' ).config()
 
+  
+  const tt = process.env.TOKEN
+
+  console.log('tt',tt)
 
   const query = `{
     viewer {
@@ -40,7 +45,7 @@ function Portfoliocard(){
     console.log('okay get items from Portfolio screen here')
   
 
-    const results = await fetchJSON('/api/portfolio')
+    const results = await fetchGRAPHQL(tt)
     console.log('RESULTS IN PORTFOLIO', results)
   }
 
