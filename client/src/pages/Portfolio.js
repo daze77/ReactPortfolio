@@ -25,7 +25,7 @@ function Portfoliocard(){
                             id
                         }
                         openGraphImageUrl
-                        url
+                        homepageUrl
                     }
                 }
             }
@@ -47,7 +47,7 @@ function Portfoliocard(){
   }
 
 
-
+   console.log(projects)
   useEffect(()=> {
     getToken()
   },[])
@@ -61,7 +61,7 @@ function Portfoliocard(){
                 <Card
                     title = {a.node.name}
                     description = {a.node.description}
-                    link = {a.node.link}
+                    link = {a.node.homepageUrl}
                     image = {a.node.openGraphImageUrl}
                     key = {a.node.id}
                 />
