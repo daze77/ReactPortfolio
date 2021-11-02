@@ -103,6 +103,7 @@ function Logo(onClick){
 
   
 return (
+  <>
         <div className="Logocontainer">
             <div className="LogoSymbolContainer">
                 <div className="logoimg el" data-x="300">
@@ -121,6 +122,7 @@ return (
                 </div>
             </div>
         </div>
+  </>
 
 
 )

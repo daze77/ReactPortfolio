@@ -7,6 +7,7 @@ import Logo from '../Logo/Logo'
 
 function Contactcard(){
     return(
+    <>
 
     <section id="contactCard" className="container-fluid">
 
@@ -40,6 +41,7 @@ function Contactcard(){
                 </div>
             </div>
     </section>
+    </>
     )
     
 

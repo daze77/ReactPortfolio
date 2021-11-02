@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 function NavBar(){
     return(
+    <>
 
     <nav className="myname navbar navbar-expand-lg navbar-light bg-white">
         <div className="container-fluid">
@@ -29,6 +30,7 @@ function NavBar(){
             </div>
         </div>
     </nav>
+    </>
 
 
     )

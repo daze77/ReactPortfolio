@@ -15,10 +15,10 @@ function App() {
           <NavBar/>
           <div className="container">
             <Route exact path="/" component={AboutPage}/> 
-            {/* <Route exact path="/reactportfolio" component={AboutPage}/>
+            <Route exact path="/reactportfolio" component={AboutPage}/>
             <Route exact path="/about" component={AboutPage}/>
             <Route exact path="/Portfolio" component={PortfolioPages}/> 
-            <Route exact path="/Contact" component={ContactPages}/>   */}
+            <Route exact path="/Contact" component={ContactPages}/>  
           </div>
           <Footer/>
         </Router>
