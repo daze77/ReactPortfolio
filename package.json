@@ -11,20 +11,13 @@
     "install": "cd client && npm install",
     "build": "cd client && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daze77/reactportfolio.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/daze77/reactportfolio/issues"
-  },
-  "homepage": "https://github.com/daze77/reactportfolio#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
+    "rfs": "^9.0.5",
     "react-transition-group": "^4.4.2"
   },
   "devDependencies": {
