@@ -1,6 +1,6 @@
 import React from 'react' 
 import Resume from '../../assets/documents/BillHronisResume-Updated.pdf'
-import './contactCard.css'
+import './ContactCard.css'
 
 import Logo from '../Logo/Logo'
 

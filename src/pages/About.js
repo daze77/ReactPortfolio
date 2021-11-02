@@ -5,9 +5,9 @@ import AboutCard from '../components/AboutCard/AboutCard'
 function AboutPage(){
 
     return(
-        <>
+   
             <AboutCard/>
-        </>
+        
     )
 
 

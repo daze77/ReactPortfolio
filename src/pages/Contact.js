@@ -1,4 +1,5 @@
-import ContactCard from '../components/contactCard/contactCard'
+import React from 'react'
+import ContactCard from '../components/ContactCard/ContactCard'
 
 
 function ContactPages(){
@@ -8,6 +9,7 @@ function ContactPages(){
             <ContactCard/>
 
         </>
+
     )
 
 
