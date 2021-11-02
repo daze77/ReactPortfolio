@@ -16,10 +16,10 @@ const STATIC_PATH = process.env.NODE_ENV === 'production' ?
 
 
 
-if( !process.env.TOKEN ){
-   console.log( '*ERROR* You need a .env file (with TOKEN,...)' )
-   process.exit()
-}
+// if( !process.env.TOKEN ){
+//    console.log( '*ERROR* You need a .env file (with TOKEN,...)' )
+//    process.exit()
+// }
 
 
 
