@@ -3,7 +3,7 @@ body{
 }
 
 h1, h5{
-    color: #88B0B7;
+    color: #c386c3;
   }
   
   .card1{
@@ -11,8 +11,6 @@ h1, h5{
     background-color: white;
     min-height: 550px;
   }
-  
-
   
   a:link, a:visited, a:hover, a:active{
     text-decoration: none;
@@ -23,11 +21,65 @@ h1, h5{
   }
 
   .portfolioCard img{
-    object-fit:contain;
-    overflow:hidden
+    object-fit:fill;
+    /* overflow:hidden */
   }
 
-  .portfolioCard .card-img-overlay:hover{
+  /* .portfolioCard:hover{
     background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+  } */
+
+  .portfolio a{
+    color: black;
   }
+
+  .portfolio .card {
+    border: none;
+  }
+
+  .portfolioCard .card-text{
+    color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .overlay{
+    position: absolute;
+    /* bottom: 0; */
+    /* background: rgb(0, 0, 0); */
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 20px;
+    height: 100%;
+  }
+
+  .overlay p{
+    margin: 0;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+  .portfolioCard:hover .overlay {
+    opacity: 1;
+  }
+
+
+
 
