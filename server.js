@@ -6,9 +6,9 @@ const apiRouter = require('./app/router')
 const app = express()
 
 
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 8088
 const API_URL = process.env.NODE_ENV === 'production' ?
-   'https://bthbilltest.herokuapp.com' : `https://localhost:${PORT}`
+   'https://bthreactportfolio.herokuapp.com' : `https://localhost:${PORT}`
 // production uses REACT production-build content
 const STATIC_PATH = process.env.NODE_ENV === 'production' ?
    path.join('client','build') : path.join('client','public')
@@ -16,10 +16,10 @@ const STATIC_PATH = process.env.NODE_ENV === 'production' ?
 
 
 
-// if( !process.env.TOKEN ){
-//    console.log( '*ERROR* You need a .env file (with TOKEN,...)' )
-//    process.exit()
-// }
+if( !process.env.TOKEN ){
+   console.log( '*ERROR* You need a .env file (with TOKEN,...)' )
+   process.exit()
+}
 
 
 
