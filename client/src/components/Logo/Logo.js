@@ -47,45 +47,61 @@ function Logo(onClick){
       
   logoAnimation()
   
-  // animation for the symbol part of the logo
-  anime({
-    targets: '.LogoSymbolContainer .el',
-    translateX: function(el) {
-      return el.getAttribute('data-x');
-    },
-    translateY: function(el, i) {
-      return 150 + (-50 * i);
-    },
-    translateX: function(el, i) {
-      return 200 + (-50 * i);
-    },
-    scale: function(el, i, l) {
-      return (l - i) + 1;
-    },
-    rotate: function() { return anime.random(-360, 360); },
-    borderRadius: function() { return ['50%', anime.random(10, 35) + '%']; },
-    duration: function() { return anime.random(2200, 2800); },
-    delay: function() { return anime.random(0, 400); },
-    direction: 'alternate',
-    loop: 2
-  });
+  // // animation for the symbol part of the logo
+  // anime({
+  //   targets: '.LogoSymbolContainer .el',
+  //   translateX: 120,
+  //   translateY: function(el, i) {
+  //     return 50 + (-50 * i);
+  //   }, 
+  //   scale: function(el, i, l) {
+  //     return (l - i) + 2;
+  //   },
+  //   duration: function() { return anime.random(1200, 1800); },
+  //   direction: 'alternate',
+  //   loop: 1
+  // });
   
   // animation for the name part of the logo
-  let animation = anime.timeline({loop: 2})
-    .add({
+  // let logoname = anime.timeline({loop: 2})
+    
+  // logoname.add({
+  //     targets: '.LogoName .el',
+  //     translateY: ["2.5em", 0],
+  //     translateZ: 0,
+  //     duration: 500,
+  //     delay: (el, i) => 50 * i,
+  //     direction: "alternate"
+  //   }).add({
+  //     targets: '.LogoName',
+  //     opacity: 1,
+  //     duration: 1000,
+  //     easing: "easeOutExpo",
+  //     delay: 1000
+  //   })
+
+
+    anime({
       targets: '.LogoName .el',
-      translateY: ["2.5em", 0],
-      translateZ: 0,
-      duration: 750,
-      delay: (el, i) => 50 * i,
-      direction: "alternate"
-    }).add({
-      targets: '.LogoName',
-      opacity: 1,
-      duration: 1000,
-      easing: "easeOutExpo",
-      delay: 1000
-    })
+      translateX: function(el) {
+        return el.getAttribute('data-x');
+      },
+      translateY: function(el, i) {
+        return 50 + (-50 * i);
+      },
+      scale: function(el, i, l) {
+        return (l - i) + .25;
+      },
+      rotate: function() { return anime.random(-360, 360); },
+      borderRadius: function() { return ['50%', anime.random(10, 35) + '%']; },
+      duration: function() { return anime.random(1200, 1800); },
+      delay: function() { return anime.random(0, 400); },
+      direction: 'alternate',
+      loop: 1
+    });
+
+
+
 }, [] )
 
 
