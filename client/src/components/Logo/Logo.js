@@ -74,29 +74,18 @@ function Logo(onClick){
   let animation = anime.timeline({loop: 2})
     .add({
       targets: '.LogoName .el',
-      translateY: ["5.5em", 0],
+      translateY: ["2.5em", 0],
       translateZ: 0,
       duration: 750,
       delay: (el, i) => 50 * i,
       direction: "alternate"
     }).add({
       targets: '.LogoName',
-      opacity: 0,
+      opacity: 1,
       duration: 1000,
       easing: "easeOutExpo",
       delay: 1000
     })
-  
-  
-  animation.finished.then(showText)
-  
-  // this function resets the opacity so the name part of the logo appears following the animation
-  
-  function showText(){
-    anime.set(document.querySelector('.LogoName').style.opacity=1
-    )
-  }
-
 }, [] )
 
 
