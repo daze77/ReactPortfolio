@@ -20,6 +20,14 @@ h1, h5{
 
   .portfolio{
     margin-bottom: 50px;
-    object-fit: cover;
+  }
+
+  .portfolioCard img{
+    object-fit:contain;
+    overflow:hidden
+  }
+
+  .portfolioCard .card-img-overlay:hover{
+    background-color: rgba(0, 0, 0, 0.5);
   }
 

@@ -64,6 +64,7 @@ function Portfoliocard(){
                     link = {a.node.homepageUrl}
                     image = {a.node.openGraphImageUrl}
                     key = {a.node.id}
+                    class = "portfolioCard"
                 />
             ))}
       
