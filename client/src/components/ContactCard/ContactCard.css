@@ -1,0 +1,78 @@
+.contactCard{
+    height:min-content;
+    background-color: white;
+    min-height: 280px;
+  }
+
+.phone, .email {
+    padding: 2px 0px 0px 0px;
+    font-size: 12px;
+    color: black
+  }
+  
+.phone a, .email a{
+    color: black
+  }
+
+.contactTop{
+    position: relative;
+}
+
+#github {
+    color: black
+  }
+
+i.fa-envelope-square, i.fa-phone-alt{
+    padding-right: 10px
+}
+
+#contactCard > .header{
+    display: inline;
+}
+
+.header{
+    color: #858689;
+    border-bottom: 1px solid #27ace1;
+}
+
+#contact h2{
+    margin-bottom: -5px;
+}
+
+#resume{
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+#resume a{
+    color: #27ace1;
+}
+
+#social{
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    font-size: 10px;
+    display: inline;
+  }
+
+#contactCard{
+    max-width: 1000px;
+    min-width: 385px;
+  }
+
+#contact{
+      padding: 1rem
+  }
+
+@media only screen and (max-width: 766px) {    
+    #contact, #logo{
+    padding: 0rem 8rem 1rem 8rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+    #logo{
+    padding: 0rem 5rem 1rem 5rem;
+  }
+}

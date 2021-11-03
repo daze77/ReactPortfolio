@@ -1,0 +1,25 @@
+body{
+    background-image: url(../assets/images/background/random_grey_variations_@2X.png);
+}
+
+h1, h5{
+    color: #88B0B7;
+  }
+  
+  .card1{
+    height:min-content;
+    background-color: white;
+    min-height: 550px;
+  }
+  
+
+  
+  a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+  }
+
+  .portfolio{
+    margin-bottom: 50px;
+    object-fit: cover;
+  }
+
