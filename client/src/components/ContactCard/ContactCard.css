@@ -2,6 +2,7 @@
     height:min-content;
     background-color: white;
     min-height: 280px;
+    padding: 15px
   }
 
 .phone, .email {
@@ -21,10 +22,6 @@
 #github {
     color: black
   }
-
-i.fa-envelope-square, i.fa-phone-alt{
-    /* padding-right: 10px */
-}
 
 #contactCard > .header{
     display: inline;
@@ -77,3 +74,9 @@ i.fa-envelope-square, i.fa-phone-alt{
     padding: 0rem 8rem 1rem 8rem;
   }
 } */
+
+
+
+#logo{
+  padding: 1rem
+}

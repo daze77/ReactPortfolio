@@ -7,40 +7,37 @@
 }
 
 /* Logo */
-.Logocontainer{
-  width: 66%;
+.NavLogocontainer{
   padding:0vw;
 }
 
-.LogoSymbolContainer{
+.NavLogoSymbolContainer{
   position: relative;
 
 }
 
 
-.logoName{
+.NavlogoName{
   position: absolute;
-  top: 70%;
-  left:49%;
-  text-align: center;
-  transform: translate(-50%, -50%);
-  white-space:nowrap;
+  bottom: 0;
+  left:99px;
+
 }
 
-#logoNameL, #logoNameR{
+#NavlogoNameL, #NavlogoNameR{
   font-family: "Bellerose Light:1.0";
 
-  font-size: 45px;
+  font-size: 54px;
 
 
 }
 
-#logoNameL{
+#NavlogoNameL{
 
   color: #a6c529
 }
 
-#logoNameR{
+#NavlogoNameR{
 
   color: #858689
 }

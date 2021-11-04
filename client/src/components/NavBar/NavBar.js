@@ -1,6 +1,7 @@
 import React from 'react' 
 import { Link } from "react-router-dom";
 import './NavBar.css'
+import NavLogo from '../NavLogo/NavLogo'
 
 
 function NavBar(){
@@ -9,7 +10,13 @@ function NavBar(){
 
     <nav className="myname navbar navbar-expand-lg navbar-light bg-white">
         <div className="container-fluid">
-            <Link to="/about" className="navbar-brand fs-1 text fw-bold text-muted" href="index.html" >Bill Hronis</Link>
+            <Link to="/about" className="navbar-brand fs-1 text fw-bold text-muted" href="index.html" >
+                    <div class="NavLogoWrapper">
+                        <NavLogo />
+
+                    </div>
+            </Link>
+
             <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
                 aria-label="Toggle navigation">

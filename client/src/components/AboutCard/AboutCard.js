@@ -6,7 +6,7 @@ import './AboutCard.css'
 function Card(){
     return(
         <section className="container-fluid">     
-            <main className="row row-col-1 row-col-md-12 pb-5">
+            <main className="row pb-5">
                 <div className="col py-5">
                     <div className="card mb-3" >
                         <div className="row g-0">

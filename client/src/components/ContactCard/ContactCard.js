@@ -22,10 +22,10 @@ function Contactcard(){
                                 <a href="https://www.linkedin.com/in/bill-hronis-8b9357155" target="_blank" rel="noreferrer"><i className="ps-2 fab fa-linkedin-in fa-2x "></i></a>
                             </div>
                         </div>
-                        <div className="row align-items-center row-cols-1 row-cols-md-2 ">
-                            <div id="logo" className="col ">
+                        <div className="row row-cols-1 row-cols-md-2 align-items-center">
+                            <div id="logo" className="col">
                                 <Logo />
-                        </div>
+                            </div>
                             <div id="contact" className="col">
                                 <h2 className="display-6">Bill Hronis</h2>
                                 <div id="resume" ><a  href={Resume} target="_blank" rel="noreferrer">Resume</a> </div>
