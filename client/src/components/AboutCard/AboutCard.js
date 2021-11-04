@@ -3,7 +3,10 @@ import ProfilePic from '../../assets/images/IMG_1070.png'
 import './AboutCard.css'
 
 
-function Card(){
+function Card(props){
+    const profile = {"IMG_1070": ProfilePic}
+
+
     return(
         <section className="container-fluid aboutCard">     
             <main className="row pb-5">
@@ -11,12 +14,12 @@ function Card(){
                     <div className="card mb-3" >
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img className="img-fluid profilePic" src={ProfilePic} alt="..."/>
+                                <img className="img-fluid profilePic" src={profile[props.pic]} alt="..."/>
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
-                                    <h1 className="card-title lh-lg header">About Me</h1>
-                                    <p className="card-text">Full Stack Web Developer with a background in Project Management and a passion for learning. Effective at combining creativity and problem solving to develop user-friendly applications.  Known among staff and collogues for strong leadership, attention to detail and a positive attitude no matter the complexity of the problem or task.</p>
+                                    <h1 className="card-title lh-lg header">{props.title}</h1>
+                                    <p className="card-text">{props.text}</p>
                                 </div>
                             </div>
                         </div>
