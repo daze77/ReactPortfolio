@@ -26,7 +26,7 @@ function Contactcard(){
                             <div id="logo" className="col ">
                                 <Logo />
                         </div>
-                            <div className="col" id="contact">
+                            <div id="contact" className="col">
                                 <h2 className="display-6">Bill Hronis</h2>
                                 <div id="resume" ><a  href={Resume} target="_blank" rel="noreferrer">Resume</a> </div>
                                 <div className="phone">

@@ -82,7 +82,7 @@ function Logo(onClick){
 
 
     anime({
-      targets: '.LogoName .el',
+      targets: '.logoName .el',
       translateX: function(el) {
         return el.getAttribute('data-x');
       },
@@ -109,24 +109,21 @@ function Logo(onClick){
   
 return (
   <>
-        <div className="Logocontainer">
-            <div className="LogoSymbolContainer">
-                <div className="logoimg el" data-x="300">
-                    <svg width="155px" height="155px"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <image href={LogoSymbol} height='100%' width="100%" />
-                    </svg>
-                </div>
-            </div>
+    <div className="Logocontainer">
+      <div className="LogoSymbolContainer">
+        <div className="logoimg el" data-x="300">
 
-            <div className="LogoNameContainer">
-                <div className="LogoName" >
-                    <span id="logoNameL">bill</span>
-                    &nbsp;
-                    <span id="logoNameR">hronis</span>
-                </div>
-            </div>
+          <img src={LogoSymbol} width="100%" height="auto"/>
+          <div className="logoName" >
+              <span id="logoNameL">bill</span>
+              <span id="logoNameR">hronis</span>
+          </div>
+
         </div>
+      </div>
+
+
+    </div>
   </>
 
 

@@ -1,56 +1,58 @@
 /* @font-face kit by Fonts2u (https://fonts2u.com) */ 
 @font-face {
-    font-family:"Bellerose Light:1.0";
-    src: url("Bellerose.woff") format("woff");
-    font-weight:normal;
-    font-style:normal;
+  font-family:"Bellerose Light:1.0";
+  src: url("Bellerose.woff") format("woff");
+  font-weight:normal;
+  font-style:normal;
 }
 
-
-
-
 /* Logo */
-
 .Logocontainer{
-    position: relative;
-    display:flex;
-  }
+  width: 30vw;
+  height: auto;
+  padding:2vw;
+}
 
-  .LogoSymbolContainer{
-    height: 155px;
-    width: 155px;
-  }
+.LogoSymbolContainer{
+  position: relative;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:auto;
+}
 
-  .LogoNameContainer{
-    position: relative;
-    height: 125px;
-    width: 200px;;
-    left: -27px
-  }
+.logoName{
+  position: absolute;
+  margin:0;
+  top: 70%;
+  left:49%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  white-space:nowrap;
+}
 
-  .LogoName{
-    position: absolute;
-    bottom:0;
-  }
+#logoNameL, #logoNameR{
+  font-family: "Bellerose Light:1.0";
+  margin:0;
+  padding:0;
+  font-size: 6vw;
+}
 
+#logoNameL{
+  margin:0;
+  width: 100%;
+  color: #a6c529
+}
 
-  #logoNameL, #logoNameR{
-    font-family: "Bellerose Light:1.0";
-    font-size: 2.1875em
-  }
+#logoNameR{
+  margin:0;
+  width: 100%;
+  color: #858689
+}
 
-  #logoNameL{
-    color: #a6c529
-  }
-
-  #logoNameR{
-    color: #858689
-  }
-
-
-  .el{
-    display:inline-block;
-  }
+.el{
+  display:inline-block;
+}
 
 
 
