@@ -66,14 +66,14 @@ i.fa-envelope-square, i.fa-phone-alt{
       padding: 1rem
   }
 
-@media only screen and (max-width: 766px) {    
+/* @media only screen and (max-width: 766px) {    
     #contact, #logo{
     padding: 0rem 8rem 1rem 8rem;
   }
-}
+} */
 
-@media only screen and (max-width: 766px) {
+/* @media only screen and (max-width: 766px) {
     #logo{
     padding: 0rem 8rem 1rem 8rem;
   }
-}
+} */

@@ -75,7 +75,7 @@ function Logo(onClick){
   
 return (
   <>
-    <div className="Logocontainer">
+    <div className="Logocontainer container">
       <div className="LogoSymbolContainer">
         <div className="logoimg el" data-x="300">
 
