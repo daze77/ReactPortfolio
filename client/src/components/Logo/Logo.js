@@ -79,7 +79,7 @@ return (
       <div className="LogoSymbolContainer">
         <div className="logoimg el" data-x="300">
 
-          <img src={LogoSymbol} width="100%" height="auto"/>
+          <img src={LogoSymbol} width="100%" height="auto" alt={"logo"}/>
           <div className="logoName" >
               <span id="logoNameL">bill</span>
               <span id="logoNameR">hronis</span>

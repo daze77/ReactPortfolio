@@ -11,7 +11,7 @@ function NavBar(){
     <nav className="myname navbar navbar-expand-lg navbar-light bg-white">
         <div className="container-fluid">
             <NavLink to="/about" className="navbar-brand fs-1 text fw-bold text-muted">
-                    <div class="NavLogoWrapper">
+                    <div className="NavLogoWrapper">
                         <NavLogo />
                     </div>
             </NavLink>

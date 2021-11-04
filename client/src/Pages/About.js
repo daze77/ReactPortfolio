@@ -15,6 +15,8 @@ function AboutPage(){
         {PORTJSON[0].AboutPage.map( about => (
 
             <AboutCard
+                key={about.id}
+                id={about.id}
                 pic={about.pic}
                 picLink={about.picLink}
                 title={about.title}

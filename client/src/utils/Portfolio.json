@@ -1,6 +1,7 @@
 [{
     "AboutPage":[
         {
+            "id": 1,
             "pic": "IMG_1070",
             "picLink": "../../assets/images",
             "title": "About Me",

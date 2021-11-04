@@ -48,8 +48,8 @@ function Portfoliocard(){
 
 
   useEffect(()=> {
-    getToken()
-  },[])
+      getToken()
+    },[])
   
 
     return(
@@ -59,6 +59,7 @@ function Portfoliocard(){
           <div className="row row-cols-1 row-cols-md-2 g-3">
             {projects.map(a =>(
                 <Card
+                    id={a.node.id}
                     title = {a.node.name}
                     description = {a.node.description}
                     link = {a.node.homepageUrl}

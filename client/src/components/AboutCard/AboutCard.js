@@ -14,7 +14,7 @@ function Card(props){
                     <div className="card mb-3" >
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img className="img-fluid profilePic" src={profile[props.pic]} alt="..."/>
+                                <img key={props.id} className="img-fluid profilePic" src={profile[props.pic]} alt="..."/>
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
