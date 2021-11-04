@@ -47,40 +47,6 @@ function Logo(onClick){
       
   logoAnimation()
   
-  // // animation for the symbol part of the logo
-  // anime({
-  //   targets: '.LogoSymbolContainer .el',
-  //   translateX: 120,
-  //   translateY: function(el, i) {
-  //     return 50 + (-50 * i);
-  //   }, 
-  //   scale: function(el, i, l) {
-  //     return (l - i) + 2;
-  //   },
-  //   duration: function() { return anime.random(1200, 1800); },
-  //   direction: 'alternate',
-  //   loop: 1
-  // });
-  
-  // animation for the name part of the logo
-  // let logoname = anime.timeline({loop: 2})
-    
-  // logoname.add({
-  //     targets: '.LogoName .el',
-  //     translateY: ["2.5em", 0],
-  //     translateZ: 0,
-  //     duration: 500,
-  //     delay: (el, i) => 50 * i,
-  //     direction: "alternate"
-  //   }).add({
-  //     targets: '.LogoName',
-  //     opacity: 1,
-  //     duration: 1000,
-  //     easing: "easeOutExpo",
-  //     delay: 1000
-  //   })
-
-
     anime({
       targets: '.logoName .el',
       translateX: function(el) {
