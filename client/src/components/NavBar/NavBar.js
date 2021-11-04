@@ -32,7 +32,7 @@ function NavBar(){
                         <Link to="/portfolio" className="nav-link active" href="portfolio.html">Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/about" className="nav-link active" href="index.html" tabindex="-1" aria-disabled="true">About</Link>
+                        <Link to="/about" className="nav-link active" href="index.html" >About</Link>
                     </li>
                 </ul>
             </div>
