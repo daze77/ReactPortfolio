@@ -8,12 +8,12 @@ function NavBar(){
     return(
     <>
 
-    <nav className="myname navbar navbar-expand-lg navbar-light bg-white">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <div className="container-fluid">
-            <NavLink to="/about" className="navbar-brand fs-1 text fw-bold text-muted">
-                    <div className="NavLogoWrapper">
+            <NavLink to="/about" className="navbar-brand">
+                    {/* <div className="NavLogoWrapper"> */}
                         <NavLogo />
-                    </div>
+                    {/* </div> */}
             </NavLink>
 
             <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
