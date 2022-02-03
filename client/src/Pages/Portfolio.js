@@ -34,22 +34,29 @@ function Portfoliocard(){
 }`
   const[projects, setProjects] = useState([])
 
-  async function getToken(){
-    const result = await fetchJSON('/api/portfolio')
-    getItems(result)
-  }
 
 
-  async function getItems(TOKEN){
-    const results = await fetchGRAPHQL(TOKEN, query)
 
-    setProjects(results.data.viewer.pinnedItems.edges)
-  }
+  // async function getItems(TOKEN){
+  //   const results = await fetchGRAPHQL(TOKEN, query)
+
+  //   setProjects(results.data.viewer.pinnedItems.edges)
+  // }
 
 
   useEffect(()=> {
+    async function getToken(){
+      const result = await fetchJSON('/api/portfolio')
+      getItems(result)
+    }
+
+    async function getItems(TOKEN){
+      const results = await fetchGRAPHQL(TOKEN, query)
+  
+      setProjects(results.data.viewer.pinnedItems.edges)
+    }
       getToken()
-    },[])
+    },[query])
   
 
     return(
