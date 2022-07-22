@@ -41,11 +41,11 @@
 ## Images of the Appliication
 Please find screenshots and a brief video showcasing the application below
 
-![bthPortfolio - Contact Page](./client/src/assets/AppPics/Contact.png)
+![bthPortfolio - Contact Page](./client/src/assets/AppPics/Contact1.png)
 
-![bthPortfolio - About Page](./client/src/assets/AppPics/About.png)
+![bthPortfolio - About Page](./client/src/assets/AppPics/About1.png)
 
-![bthPortfolio - Portfolio Page](./client/src/assets/AppPics/Portfolio.png)
+![bthPortfolio - Portfolio Page](./client/src/assets/AppPics/Portfolio1.png)
 
 
 ## Access to Functional Applicaton
