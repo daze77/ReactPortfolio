@@ -8,7 +8,7 @@ const app = express()
 
 const PORT = process.env.PORT || 8088
 const API_URL = process.env.NODE_ENV === 'production' ?
-   'https://render-reactportfolio2.onrender.com' : `https://localhost:${PORT}`
+   'https://test-sbx1.onrender.com' : `https://localhost:${PORT}`
 // production uses REACT production-build content
 const STATIC_PATH = process.env.NODE_ENV === 'production' ?
    path.join('client','build') : path.join('client','public')
