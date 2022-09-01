@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/daze77/billstest/issues"
   },
-  "homepage": "https://github.com/daze77/billstest#readme",
+  "homepage": "https://test.sbx1.onrender.com/index.html",
   "dependencies": {
     "concurrently": "^6.5.1",
     "dotenv": "^10.0.0",
