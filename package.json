@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/daze77/billstest/issues"
   },
-  "homepage": "https://render-reactportfolio.onrender.com",
+  "homepage": "https://render-react-portfolio.onrender.com",
 
   "devDependencies": {
     "concurrently": "^7.3.0",

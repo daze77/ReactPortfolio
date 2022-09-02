@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:8088/",
-  "homepage": "https://render-reactportfolio.onrender.com",
+  "homepage": "https://render-react-portfolio.onrender.com",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
