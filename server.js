@@ -40,7 +40,7 @@ apiRouter( app, API_URL, STATIC_PATH )
 // THEN you need to enable this for server-side serving to work
 if (process.env.NODE_ENV === 'production') {
    app.get('*', (req, res) => {
-      res.sendFile(path.join(__dirname, 'client/build/index.html'))
+      res.sendFile(path.join(__dirname, './client/build/index.html'))
    })
    console.log( '!! Be sure to run "npm run build" to prepare production react code!')
 }
