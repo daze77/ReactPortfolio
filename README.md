@@ -50,7 +50,7 @@ Please find screenshots and a brief video showcasing the application below
 
 ## Access to Functional Applicaton
 
-A functioning version of the application can be found here [Heroku](https://bthreactportfolio.herokuapp.com/)
+A functioning version of the application can be found here [render](https://render-react-portfolio.onrender.com)
 
 
 ## GitHub Direct Link:  
