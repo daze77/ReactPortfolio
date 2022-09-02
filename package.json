@@ -20,6 +20,8 @@
   "bugs": {
     "url": "https://github.com/daze77/billstest/issues"
   },
+  "homepage": "https://render-reactportfolio.onrender.com",
+
   "devDependencies": {
     "concurrently": "^7.3.0",
     "nodemon": "^2.0.19"
@@ -28,6 +30,8 @@
   "dependencies": {
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "concurrently": "^7.3.0",
+    "nodemon": "^2.0.19"
   }
 }
