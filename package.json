@@ -20,8 +20,9 @@
   "bugs": {
     "url": "https://github.com/daze77/billstest/issues"
   },
+  "homepage": "https://test.sbx1.onrender.com",
   "devDependencies": {
-    "concurrently": "^6.5.1",
+    "concurrently": "^7.3.0",
     "nodemon": "^2.0.19"
 
   },

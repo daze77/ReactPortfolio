@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:8088/",
+  "homepage": "https://test.sbx1.onrender.com",
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
