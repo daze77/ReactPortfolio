@@ -15,7 +15,10 @@ const currentYear = currentDate.getFullYear()
     <>
         <footer className="footer navbar navbar-light bg-secondary">
             <div className="d-block text-center container-fluid">
-                <span className="navbar-brand mb-0"><small>&#169;Copyright {currentYear} </small></span>
+                <span className="navbar-brand mb-0 copyright">
+                    Copyright <small>&#169; </small>
+                    {currentYear} Bill Hronis Ltd.  All rights reserved.
+                </span>
             </div>
         </footer>
     </>
