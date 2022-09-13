@@ -1,5 +1,5 @@
 import React from 'react' 
-import Resume from '../../assets/documents/BillHronis-Resume.pdf'
+import Resume from '../../assets/documents/Bill Hronis - ResumePM.pdf'
 import './ContactCard.css'
 
 import Logo from '../Logo/Logo'
