@@ -2,9 +2,7 @@ body{
     background-image: url(../assets/images/background/random_grey_variations_@2X.png);
 }
 
-h1, h5{
-    color: #c386c3;
-  }
+
   
   .card1{
     height:min-content;
@@ -16,62 +14,12 @@ h1, h5{
     text-decoration: none;
   }
 
-  .portfolio{
-    margin-bottom: 50px;
-  }
 
-  .portfolioCard img{
-    object-fit:cover;
-
-  }
-
-
-  .portfolio a{
-    color: black;
-  }
-
-  .portfolio .card {
-    border: none;
-    border-radius: 2rem;
-  }
-
-  .portfolioCard .card-text{
-    color: black;
-  }
 
   .card{
     position: relative;
   }
-  .overlay{
-    position: absolute;
-    /* bottom: 0; */
-    /* background: rgb(0, 0, 0); */
-    margin:0;
-    background: rgba(0, 0, 0, 0.6); /* Black see-through */
-    color: #f1f1f1;
-    width: 100%;
-    transition: .7s ease;
-    opacity:0;
-    font-size: 20px;
-    font-weight: bolder;
-    padding: 20px;
-    height: 100%;
-    border-radius: 2rem;
 
-  }
-
-  .overlay p{
-    margin: 0;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-  }
-
-  .portfolioCard:hover .overlay {
-    opacity: 1;
-  }
 
 
 

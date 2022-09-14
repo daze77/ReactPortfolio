@@ -5,7 +5,7 @@ function card(props){
 
 return(
     <>
-      <div className="col">
+      <div className="col cardtest">
         <a href={props.link} alt={props.link} target="_blank" rel="noreferrer" className ="">
             <div className={`card h-100 ${props.class ? props.class : ""}`} style={{width: "100%"}} key={props.id}>
                     <img src={props.image} className="card-img-top" alt={props.image}/>
