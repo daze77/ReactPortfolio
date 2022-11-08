@@ -5,7 +5,68 @@
             "pic": "IMG_1070",
             "picLink": "../../assets/images",
             "title": "About Me",
-            "text": "A project management professional with a passion for learning.  Effective at combining creativity and problem solving to overcome challenges and motivate teams. Known among staff and colleagues for strong leadership, attention to detail and positive attitude no matter the complexity of the challenge or task to deliver success.  Oh...I can also code.  Full Stack Development knowledge including: CSS, HTML, JavaScript, MySQL, MongoDB, Node, Express and React."
+            "text":[ 
+                {
+                    "id": 1,
+                    "paragraph": "I am a professional project management leader with 20 years of experience in the Financial Services Industry and 10 years of progressive experience leading teams and delivering high priority projects integral to organizational success."
+                },
+                {
+                    "id": 2,
+                    "paragraph": "I enjoy developing high performance teams through mentoring, knowledge sharing and standardizing processes to create a unified approach to both project and change management.  I leverage technology to refine processes to improve efficiencies, accessibility to project information and transparency."
+                },
+                {
+                    "id": 3,
+                    "paragraph": "I am known for my ability to bridge the communication gap and translate information between business and IT to foster an environment of mutual understanding and respect when working towards common goals. I enjoy collaborating with project sponsors to highlight the benefits of initiatives and improve project governance with set expectations and standards.  I am a servant leader who focuses on team development and well-being and I am always willing to jump in and get my hands dirty to support team success."
+                },
+                {
+                    "id": 3,
+                    "paragraph": "Areas of expertise include:",
+                    "list": 
+                    [{
+                        "id": 1,
+                        "listitem": "Leadership"
+
+                    },
+                    {
+                        "id": 2,
+                        "listitem": "Strategic Planning"
+
+                    },
+                    {
+                        "id": 3,
+                        "listitem": "Project Management Office (PMO)"
+
+                    },
+                    {
+                        "id": 4,
+                        "listitem": "Portfolio Management"
+
+                    },
+                    {
+                        "id": 5,
+                        "listitem": "Risk Management"
+
+                    },
+                    {
+                        "id": 6,
+                        "listitem": "Stakeholder Management"
+
+                    },
+                    {
+                        "id": 7,
+                        "listitem": "Vendor Management"
+
+                    }
+                    
+                    ]
+                        
+                        
+                        
+                }
+            ]
+                
+                
+            
         }
     ]
 }]

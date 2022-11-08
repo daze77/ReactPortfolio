@@ -4,6 +4,14 @@ import './AboutCard.css'
 
 
 function Card(props){
+    const y = "fuck this"
+    console.log(props)
+    console.log(props.text)
+    props.text.map(item => console.log(item.paragraph))
+    let x = `this is a test ${y}`
+
+    console.log(x)
+
     const profile = {"IMG_1070": ProfilePic}
 
 
@@ -19,7 +27,27 @@ function Card(props){
                             <div className="col-md-8">
                                 <div className="card-body">
                                     <h1 className="card-title lh-lg header">{props.title}</h1>
-                                    <p className="card-text">{props.text}</p>
+                                    
+                                    {props.text.map(item =>
+                                     
+                                    (
+                                    <p className="card-text">{item.paragraph}
+                                    
+                                    {item.list?(<ul>
+                                        {item.list.map(items => <li>{items.listitem}</li>)}
+
+                                        </ul>
+                                    ) 
+                                    
+
+                                    : console.log('no')}
+                                    </p>
+
+                                    ))
+                                    
+}
+                                    
+
                                 </div>
                             </div>
                         </div>
