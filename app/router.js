@@ -10,21 +10,16 @@ function router(app){
    
     })
 
-    //this code is for the qtrade app - redirect to pass a value back to qtrade app server via params
-     app.get('/api/qtrade/:qtrade', (req, res) => { 
-        console.log('hello are you there', req.params)
-                 x = (req.params)
-                //  console.log(x)
-
-        res.json(x)
+    //this code is for the qtrade app - redirect to pass a value back to qtrade app server via query of URL
+     app.get('/api/qtrade', (req, res) => { 
+        const code = req.query.code
+        console.log('hello are you there', req.query.code)
+                 
+        res.json(code)
 
     })
 
-    // this will take the params pushed to x and pass to new api route for access
-    app.get('/api/qtrade',(req,res) => {
-            // console.log('did this work', x)
-            res.json(x)
-        })
+ 
 
 
 
