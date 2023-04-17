@@ -10,13 +10,13 @@ function router(app){
 
     })
 
-
-
-    app.get('/api/qtrade', (req, res) =>  {
-        let x = req.url.split('=')[1]
+    app.get('/api/qtrade/', (req, res) => { 
+       let x = req.url.split('=')[1]
         res.json({results: x})
+   
+        })
 
-    })
+
 }
 
 module.exports = router
