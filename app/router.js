@@ -11,7 +11,7 @@ function router(app){
     })
 
     //this code is for the qtrade app - redirect to pass a value back to qtrade app server via params
-     app.get('/api/qtradeCode', (req, res) => { 
+     app.get('/api/qtradeCode/qtrade', (req, res) => { 
         const code = req.query.code
         console.log('hello are you there', req.query.code)
         x = code
