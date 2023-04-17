@@ -45,6 +45,11 @@ function Portfoliocard(){
     const results = await fetchGRAPHQL(TOKEN, query)
 
     setProjects(results.data.viewer.pinnedItems.edges)
+
+
+    const code = await fetchJSON('/api/qtrade',)
+      console.log(code)
+    
   }
 
 
