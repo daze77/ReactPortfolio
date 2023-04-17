@@ -15,8 +15,9 @@ function router(app){
         const code = req.query.code
         console.log('hello are you there', req.query.code)
         x = code
+
                  
-        res.json(code)
+        res.json({code: code})
 
     })
 
