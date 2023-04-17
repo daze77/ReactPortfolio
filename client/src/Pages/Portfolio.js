@@ -37,7 +37,7 @@ function Portfoliocard(){
   async function getToken(){
     const result = await fetchJSON('/api/portfolio')
     getItems(result)
-    console.log('we made it here and here are the results', result)
+    // console.log('we made it here and here are the results', result)
   }
 
 
