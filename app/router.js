@@ -25,8 +25,7 @@ function router(app){
     app.get('/api/qtrade', (req, res) => {
         console.log('we got code', x.code)
 
-        // x.code === undefined? res.json({code:'no code received'}) : res.json(x)
-        res.writeHead(307, {Loation:'localhost:8088'})
+        x.code === undefined? res.json({code:'no code received'}) : res.json(x)
         
 
     })
