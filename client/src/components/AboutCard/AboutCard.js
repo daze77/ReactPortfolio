@@ -4,13 +4,6 @@ import './AboutCard.css'
 
 
 function Card(props){
-    const y = "fuck this"
-    console.log(props)
-    console.log(props.text)
-    props.text.map(item => console.log(item.paragraph))
-    let x = `this is a test ${y}`
-
-    console.log(x)
 
     const profile = {"IMG_1070": ProfilePic}
 
@@ -40,7 +33,7 @@ function Card(props){
                                     ) 
                                     
 
-                                    : console.log('no')}
+                                    : ''}
                                     </p>
 
                                     ))

@@ -24,14 +24,18 @@ function router(app){
 
     app.get('/api/qtrade', (req, res) => {
         console.log('we got code', x.code)
-        res.json(x)
+
+        // x.code === undefined? res.json({code:'no code received'}) : res.json(x)
+        res.writeHead(307, {Loation:'localhost:8088'})
+        
+
     })
 
-    // this will take the params pushed to x and pass to new api route for access
-    // app.get('/api/qtrade',(req,res) => {
-    //         console.log('did this work', code)
-    //         res.json(code)
-    //     })
+
+ 
+
+
+
 
 
 
